@@ -32,7 +32,7 @@ yum makecache
 yum list installed | grep mysql
 ```
 
-![1570541665646](E:\lian\oracle\typora-user-images\1570541665646.png)
+![1570541665646](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570541665646.png)
 
 ### 2、删除系统自带的mysql及其依赖（防止冲突）
 
