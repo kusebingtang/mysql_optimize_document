@@ -57,23 +57,23 @@
 
 ##### （一）一主一从
 
-![1570714549624](e:\lian\oracle\typora-user-images\1570714549624.png)
+![1570714549624](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570714549624.png)
 
 ##### （二）主主复制
 
-![1570714565647](e:\lian\oracle\typora-user-images\1570714565647.png)
+![1570714565647](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570714565647.png)
 
 ##### （三）一主多从
 
-![1570714576819](e:\lian\oracle\typora-user-images\1570714576819.png)
+![1570714576819](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570714576819.png)
 
 ##### （四）多主一从
 
-![1570714615915](e:\lian\oracle\typora-user-images\1570714615915.png)
+![1570714615915](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570714615915.png)
 
 ##### （五）联级复制
 
-![1570714660961](e:\lian\oracle\typora-user-images\1570714660961.png)
+![1570714660961](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570714660961.png)
 
 ### 4、mysql主从同步延时分析
 

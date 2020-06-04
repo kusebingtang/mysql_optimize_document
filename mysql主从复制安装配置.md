@@ -70,7 +70,7 @@ mysql -uroot -p
 show master status；
 ```
 
-![1570703264912](E:\lian\oracle\typora-user-images\1570703264912.png)
+![1570703264912](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570703264912.png)
 
 ### 8、重启从服务器并进行相关配置
 
