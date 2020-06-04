@@ -40,7 +40,7 @@ yum list installed | grep mysql
 yum -y remove mysql-libs.x86_64
 ```
 
-![1570541838485](E:\lian\oracle\typora-user-images\1570541838485.png)
+![1570541838485](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570541838485.png)
 
 ### 3、安装wget命令
 
@@ -48,7 +48,7 @@ yum -y remove mysql-libs.x86_64
 yum install wget -y 
 ```
 
-![1570541946471](E:\lian\oracle\typora-user-images\1570541946471.png)
+![1570541946471](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570541946471.png)
 
 ### 4、给CentOS添加rpm源，并且选择较新的源
 
@@ -56,7 +56,7 @@ yum install wget -y
 wget dev.mysql.com/get/mysql-community-release-el6-5.noarch.rpm
 ```
 
-![1570542045332](E:\lian\oracle\typora-user-images\1570542045332.png)
+![1570542045332](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570542045332.png)
 
 ### 5、安装下载好的rpm文件
 
@@ -64,21 +64,21 @@ wget dev.mysql.com/get/mysql-community-release-el6-5.noarch.rpm
  yum install mysql-community-release-el6-5.noarch.rpm -y
 ```
 
-![1570542254949](E:\lian\oracle\typora-user-images\1570542254949.png)
+![1570542254949](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570542254949.png)
 
 ### 6、安装成功之后，会在/etc/yum.repos.d/文件夹下增加两个文件
 
-![1570542341604](E:\lian\oracle\typora-user-images\1570542341604.png)
+![1570542341604](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570542341604.png)
 
 ### 7、修改mysql-community.repo文件
 
 原文件：
 
-![1570542415955](E:\lian\oracle\typora-user-images\1570542415955.png)
+![1570542415955](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570542415955.png)
 
 修改之后：
 
-![1570542471948](E:\lian\oracle\typora-user-images\1570542471948.png)
+![1570542471948](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570542471948.png)
 
 ### 8、使用yum安装mysql
 
@@ -86,7 +86,7 @@ wget dev.mysql.com/get/mysql-community-release-el6-5.noarch.rpm
 yum install mysql-community-server -y
 ```
 
-![1570542688796](E:\lian\oracle\typora-user-images\1570542688796.png)
+![1570542688796](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570542688796.png)
 
 ### 9、启动mysql服务并设置开机启动
 
@@ -105,7 +105,7 @@ chkconfig mysqld on
 grep "password" /var/log/mysqld.log
 ```
 
-![1570604493708](E:\lian\oracle\typora-user-images\1570604493708.png)
+![1570604493708](https://github.com/kusebingtang/mysql_optimize_document/blob/master/typora-user-images/1570604493708.png)
 
 ### 11、使用临时密码登录
 
